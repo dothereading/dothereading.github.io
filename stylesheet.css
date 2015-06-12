@@ -74,7 +74,7 @@ footer {
 
 .cd-fixed-bg.cd-bg-4 {
   min-height:4em;
-  background-color:#c0392b;
+  background-color:#f39c12;
   margin-left:-8px;
   margin-right:-8px;
   text-align:center;
@@ -310,7 +310,7 @@ p2 {
   margin-right:5px;
   margin-top:10px;
   margin-bottom:5px;
-  background-color: #95a5a6;
+  background-color: #95a5a6 ;
 }
 
 .projectspage {
@@ -323,11 +323,11 @@ p2 {
   margin-right:5px;
   margin-top:10px;
   margin-bottom:5px;
-  background-color: #c0392b;
+  background-color: #f39c12;
 }
-
+<!--#c0392b-->
 .projects:hover {
-  background-color:#c0392b;
+  background-color:#f39c12;
 }
 
 .notes {
@@ -448,7 +448,7 @@ color:#95a5a6;
   padding-bottom: 60px;
   margin-bottom:5px;
   margin-top:10px;
-  background-color: #c0392b;
+  background-color: #f39c12;
 }
 
 .barabout {
