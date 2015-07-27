@@ -27,7 +27,7 @@ footer {
     left:0;
 }
 
-#videobcg { 
+#videobcg {
      position: absolute;
      top: 0px;
      left: 0px;
@@ -39,6 +39,21 @@ footer {
      overflow: hidden;
 }
 
+.galleria{ width: 760px;
+	height:565px;
+	background: #000
+}
+
+.bluebottom {
+    position: fixed;
+		z-index: -1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+		height: 2.35em;
+		background-color: #2980b9;
+}
+
 .cd-fixed-bg {
 	min-height: 100%;
 	background-size: cover;
@@ -46,7 +61,7 @@ footer {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
- 
+
 .cd-fixed-bg.cd-bg-1 {
 	margin-top:20%;
 	text-align:center;
@@ -61,7 +76,7 @@ footer {
   padding-top: 10%;
   color:white;
 }
- 
+
 .cd-fixed-bg.cd-bg-3 {
   background-image: url("http://unrealitymag.bcmediagroup.netdna-cdn.com/wp-content/uploads/2011/09/TI9ZS.jpg");
   margin-left:-8px;
@@ -89,8 +104,8 @@ footer {
 	margin-right:-8px;
 	display: inline-block;
     vertical-align: bottom;
-    line-height: 1.5 em;     
-} 
+    line-height: 1.5 em;
+}
 
 
 .cd-fixed-bg.cd-bg-notes {
@@ -126,8 +141,8 @@ footer {
 	margin-left:-8px;
 	margin-right:0px;
 	background-color:#1E824C;
-	display: inline-block; 
-} 
+	display: inline-block;
+}
 
 
 .cd-container {
@@ -185,40 +200,40 @@ footer {
     text-justify: inter-word;
 }
 
-.notestext {
+.photostext {
 	width:52%;
 	margin: auto;
 	text-align: justify;
     text-justify: inter-word;
     display: inline-block;
     vertical-align: middle;
-    line-height: 1.5 em;   
+    line-height: 1.5 em;
 }
 
 .pic {
 	width:48%;
 	margin-right:5px;
-}  
-        
-.icons {
-    text-align:right; 
-    margin-right: 15px; 
 }
 
-#wrap { 
+.icons {
+    text-align:right;
+    margin-right: 15px;
+}
+
+#wrap {
 	float:right;
 	left:50%;
 	width: 40%;
 }
 
-#wrap1 { 
+#wrap1 {
 	position:absolute;
 	left:2.5em;
 	width: 40%;
 	z-index:-1;
 }
 
-#wrapl { 
+#wrapl {
 	position:absolute;
 	left:10%;
 	right: 30%
@@ -237,32 +252,32 @@ footer {
 
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300; 
+  font-weight: 300;
   font-size: x-large;
 }
 
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 200; 
+  font-weight: 200;
   font-size: huge
 }
 
 h3 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 200; 
+  font-weight: 200;
   font-size: large;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
   font-size: xx-large;
-  font-weight: 400; 
+  font-weight: 400;
   color:#f1c40f;
 }
 
 p2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300; 
+  font-weight: 300;
   font-size: xx-large;
   color:white;
 
@@ -270,7 +285,7 @@ p2 {
 
 .name {
   float:left;
-  width:200px; 
+  width:200px;
   height: 0px;
   padding-left: 0px;
   padding-top: 0px;
@@ -284,7 +299,7 @@ p2 {
 
 .namepage {
   float:left;
-  width:200px; 
+  width:200px;
   height: 0px;
   padding-left: 0px;
   padding-top: 0px;
@@ -302,7 +317,7 @@ p2 {
 
 .projects {
   float:left;
-  width:130px; 
+  width:130px;
   height: 0px;
   padding-left: 0px;
   padding-top: 0px;
@@ -315,7 +330,7 @@ p2 {
 
 .projectspage {
   float:left;
-  width:130px; 
+  width:130px;
   height: 0px;
   padding-left: 0px;
   padding-top: 0px;
@@ -330,9 +345,9 @@ p2 {
   background-color:#f39c12;
 }
 
-.notes {
+.photos {
   float:left;
-  width:100px; 
+  width:120px;
   height: 0px;
   padding-left: 0px;
   padding-top: 0px;
@@ -343,9 +358,9 @@ p2 {
   background-color: #95a5a6;
 }
 
-.notespage {
+.photospage {
   float:left;
-  width:100px; 
+  width:120px;
   height: 0px;
   padding-left: 0px;
   padding-top: 0px;
@@ -356,13 +371,13 @@ p2 {
   background-color: #2980b9;
 }
 
-.notes:hover {
+.photos:hover {
   background-color:#2980b9;
 }
 
 .aboutme {
   float:left;
-  width:140px; 
+  width:140px;
   height: 0px;
   padding-left: 0px;
   padding-top: 0px;
@@ -375,7 +390,7 @@ p2 {
 
 .aboutmepage {
   float:left;
-  width:140px; 
+  width:140px;
   height: 0px;
   padding-left: 0px;
   padding-top: 0px;
@@ -395,13 +410,13 @@ a{
   text-decoration: none;
   }
 
-.gray {	
+.gray {
 color:#95a5a6;
 }
 
 .bar {
   position:absolute;
-  left:748px;
+  left:768px;
   right:0px;
   height: 0px;
   padding-left: 0px;
@@ -415,7 +430,7 @@ color:#95a5a6;
 .barindex {
   position:absolute;
   right:0px;
-  left:588px;
+  left:608px;
   height: 0px;
   padding-left: 0px;
   padding-top: 0px;
@@ -425,10 +440,10 @@ color:#95a5a6;
   background-color:  #f1c40f;
 }
 
-.barnotes {
+.barphotos {
   position:absolute;
   right:0px;
-  left:588px;
+  left:608px;
   height: 0px;
   padding-left: 0px;
   padding-top: 0px;
@@ -441,7 +456,7 @@ color:#95a5a6;
 .barprojects {
   position:absolute;
   right:0px;
-  left:588px;
+  left:608px;
   height: 0px;
   padding-left: 0px;
   padding-top: 0px;
@@ -454,7 +469,7 @@ color:#95a5a6;
 .barabout {
   position:absolute;
   right:0px;
-  left:588px;
+  left:608px;
   height: 0px;
   padding-left: 0px;
   padding-top: 0px;
@@ -465,7 +480,7 @@ color:#95a5a6;
 }
 
 .half {
-  float:left; 
+  float:left;
   left:50%;
   right: 0px;
   height: 100px;
@@ -473,16 +488,18 @@ color:#95a5a6;
 
 }
 
+
+
 @media handheld {
 
-	
-#wrap { 
+
+#wrap {
 	float:right;
 	width: 100%;
 }
-	
+
 	.icons {
-   		text-align:center; 
+   		text-align:center;
     	}
 
 
