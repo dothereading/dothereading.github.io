@@ -25,6 +25,7 @@ footer {
     bottom: 0;
     right:10;
     left:0;
+		z-index:100;
 }
 
 #videobcg {
@@ -61,89 +62,6 @@ footer {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-
-.cd-fixed-bg.cd-bg-1 {
-	margin-top:20%;
-	text-align:center;
-	color:white;
-}
-
-.cd-fixed-bg.cd-bg-2 {
-  background-image: url("http://i.imgur.com/ZG4RSGO.jpg");
-  margin-left:-8px;
-  margin-right:-8px;
-  text-align:center;
-  padding-top: 10%;
-  color:white;
-}
-
-.cd-fixed-bg.cd-bg-3 {
-  background-image: url("http://unrealitymag.bcmediagroup.netdna-cdn.com/wp-content/uploads/2011/09/TI9ZS.jpg");
-  margin-left:-8px;
-  margin-right:-8px;
-  text-align:center;
-  padding-top: 10%;
-  color:white;
-}
-
-
-.cd-fixed-bg.cd-bg-4 {
-  min-height:4em;
-  background-color:#f39c12;
-  margin-left:-8px;
-  margin-right:-8px;
-  text-align:center;
-}
-
-.cd-scrolling-bg {
-	min-height: 20%;
-	background-color:white;
-	margin-top:-22px;
-	margin-bottom:-22px;
-	margin-left:-8px;
-	margin-right:-8px;
-	display: inline-block;
-    vertical-align: bottom;
-    line-height: 1.5 em;
-}
-
-
-.cd-fixed-bg.cd-bg-notes {
-  min-height:2.5em;
-  background-color:#2980b9;
-  margin-left:-8px;
-  margin-right:-8px;
-  text-align:center;
-}
-
-
-.cd-fixed-bg.cd-bg-2notes {
-  background-image: url();
-  margin-left:-8px;
-  margin-right:-8px;
-  text-align:center;
-  padding-top: 16em;
-  color:white;
-}
-
-.cd-fixed-bg.cd-bg-about {
-	margin-top:45%;
-	text-align:center;
-	color:white;
-}
-
-.cd-scrolling-about {
-	min-height: 2.5em;
-	position:absolute;
-	left:0;
-	right:0;
-	margin-bottom:-8px;
-	margin-left:-8px;
-	margin-right:0px;
-	background-color:#1E824C;
-	display: inline-block;
-}
-
 
 .cd-container {
 	margin: auto;
@@ -338,11 +256,11 @@ p2 {
   margin-right:5px;
   margin-top:10px;
   margin-bottom:5px;
-  background-color: #f39c12;
+  background-color: #c0392b;
 }
 
 .projects:hover {
-  background-color:#f39c12;
+  background-color:#c0392b;
 }
 
 .photos {
@@ -463,7 +381,7 @@ color:#95a5a6;
   padding-bottom: 60px;
   margin-bottom:5px;
   margin-top:10px;
-  background-color: #f39c12;
+  background-color: #c0392b;
 }
 
 .barabout {
@@ -488,19 +406,61 @@ color:#95a5a6;
 
 }
 
-
-
-@media handheld {
-
-
-#wrap {
-	float:right;
-	width: 100%;
+/* Gridster styles */
+.projectsg {
+	padding-top:3.25%;
+  padding-left: auto;
+	padding-right: auto;
 }
 
-	.icons {
-   		text-align:center;
-    	}
+.gridster {
+  width: 925px;
+  margin: auto;
+	z-index: 0;
+}
+
+.gridster .gs_w {
+}
+
+img {
+    max-height: 100%;
+    width: 100%;
+}
+
+li {
+	 border: solid 2px black;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 100%;
+  width: 100%
+  left: 0;
+  position: absolute;
+  top: 0;
+	bottom:0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
 
 
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.gridster .gs_w:hover span.text-content {
+  opacity: 1;
+}
+
+ul, ol {
+    list-style: none;
 }
