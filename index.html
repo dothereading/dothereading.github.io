@@ -1,68 +1,282 @@
-<!DOCTYPE html>
-<link type="text/css" rel="stylesheet" href="stylesheet.css" />
-<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700' rel='stylesheet' type='text/css'>
-<style>
-body {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color:black;
-  overflow-x:hidden;
-  overflow-y:hidden;
-  height:100%;
-}
-</style>
-
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-
 	<head>
-
-		<div align="center" class="namepage"><a href="index.html"><h1 class="white">Miguel Conner</h1></a></div>
-		<div align="center" class="projects"><a href="projects.html"><h1 class="white">Projects</h1></a></div>
-		<div align="center" class="photos"><a href="photos.html"><h1 class="white">Photos</h1></a></div>
-		<div align="center" class="aboutme"><a href="aboutme.html"><h1 class="white">About Me</h1></a></div>
-		<div align="center" class="barindex"></div>
-		<br>
-		<title>Miguel's Website</title>
+		<title>Story by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+	<body class="is-preload">
 
-	<body>
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
 
-	<video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted">
-    	<source src="alaska.mp4"  type="video/mp4" />
-		<!--<source src="alaska.ovg"  type="video/ogg" />
-    	<source src="Peeking 2.0.mp4"  type="video/mp4" /> -->
-		<source src="Peeking 2.0.ovg"  type="video/ogg" />
-	</video>
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h1>Hi. It's me, Miguel.</h1>
+							<p class="major">I'm a data scientist. I hold a masters degree from the Barcelona School of Economics in Data Science Methodology, and a bachelors in Physics from Reed College.
+										<ul class="actions stacked">
+								<li><a href="projects\cvwebsite.pdf" class="button big wide smooth-scroll-middle">See my CV</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/bill.JPG" alt="" />
+						</div>
+					</section>
 
-	<!--<div id="wrap1">
-	<br> <br> <br> <br> <br>
-	<p>"When the seagulls follow the trawler, it's because they think sardines will be thrown
-	into the sea."</p>
-	<p2>- Eric Cantona</p2>
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>Analyzing Road Quality from Satellite Imagery</h2>
+							<p>In collaboration with the World Bank, we trained a neural network on IRI data and millions of satellite images in order to understand quality of rural roads.</p>
+							<ul class="actions stacked">
+								<li><a href="projects/mastersthesis.pdf" class="button">Report</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/mastersthesis.png" alt="" />
+						</div>
+					</section>
 
-	</div>-->
+				<!-- Three -->
+				<section class="spotlight style1 orient-left content-align-right image-position-center onscroll-image-fade-in" id="first">
+					<div class="content">
+						<h2>Trends in Towards Data Science Articles</h2>
+						<p>Scraped all articles published on Towards Data Science and applied LDA to explore the most common article topics. Then, we explored how these topics evolved over time.</p>
+						<ul class="actions stacked">
+							<li><a href="projects/towardsdatascience.pdf" class="button">Report</a></li>
+						</ul>
+					</div>
+					<div class="image">
+						<img src="images/tds.png" alt="" />
+					</div>
+				</section>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+				<!-- Four -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Predicting Probability of Patient Death</h2>
+							<p>For an in-class kaggle competition, I built various machine learning models that preddicted probability of death given patient and demographic data. I got one of the top scores in the class!</p>
+							<ul class="actions stacked">
+								<li><a href="https://github.com/dothereading/PatientDeathPrediction" class="button">Github</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/pipeline3.png" alt="" />
+						</div>
+					</section>
 
-    ga('create', 'UA-65686737-1', 'auto');
-    ga('send', 'pageview');
+				<!-- Five -->
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>A few other things I've done.</h2>
+							<!-- <p> A bit random... </p> -->
+						</div>
 
-  </script>
+						<!-- Gallery -->
+							<div class="gallery style2 large lightbox onscroll-fade-in">
+								<article>
+									<a href="https://medium.com/@gapogapo/why-youll-never-read-this-novel-in-any-language-other-than-japanese-1959042411aa" class="image">
+										<img src="images/spiderlily.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Some Books are More Difficult to Translate than Others</h3>
+										<p>In Kotomi Li's 彼岸花が咲く島 (Island Where the Spider Lilies Bloom), the author weaves language and East Asian history in such a way that makes it really hard to translate. </p>
+										<ul class="actions fixed">
+											<li><span class="button small">Read the Article</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="projects/vae.pdf" class="image">
+										<img src="images/vae.png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Variational Auto-Encoders</h3>
+										<p>A project where we try to deconstruct how VAEs work and then play around with the KL divergence.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Report</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="projects/YOLO_Chess.pdf" class="image">
+										<img src="images/webcam.png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>YOLO Algorithm for Chess</h3>
+										<p>We summarize how the YOLO algorithm works and train one to detect chess pieces in real time.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="projects/undergrad.pdf" class="image">
+										<img src="images/hqa.png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Tunneling in Hyrodynamic Quantum Analogs</h3>
+										<p>My undergrad thesis was on a hyrodynamic system that acts like a quantum system.</p>
+										<ul class="actions fixed">
+											<li><span href = "projects/undergrad.pdf"  class="button small">Some More Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="https://www.sciencedirect.com/science/article/abs/pii/S0019103517300428" class="image">
+										<img src="images/mars.jpg" alt="" />  <!-- This image is from unsplashed!-->
+									</a>
+									<div class="caption">
+										<h3>Is there Evidence for Water on Mars?</h3>
+										<p>I spent a summer working on research funded by a NASA grant. We eventually published the results!</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Read the Paper</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="https://photos.app.goo.gl/y34K6S8MPpq9AtKW6" class="image">
+										<img src="images/albania.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>I take picures.</h3>
+										<p>Here are some that I've taken.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Pictures</span></li>
+										</ul>
+									</div>
+								</article>
+							</div>
+
+					</section>
+
+				<!-- Six -->
+					<!-- <section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>Ipsum sed consequat</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
+							<div class="items style1 medium onscroll-fade-in">
+								<section>
+									<span class="icon style2 major fa-gem"></span>
+									<h3>Lorem</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-save"></span>
+									<h3>Ipsum</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-chart-bar"></span>
+									<h3>Dolor</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-wifi"></span>
+									<h3>Amet</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-cog"></span>
+									<h3>Magna</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon style2 major fa-paper-plane"></span>
+									<h3>Tempus</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-desktop"></span>
+									<h3>Aliquam</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-sync-alt"></span>
+									<h3>Elit</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-hashtag"></span>
+									<h3>Morbi</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-bolt"></span>
+									<h3>Turpis</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-envelope"></span>
+									<h3>Ultrices</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-leaf"></span>
+									<h3>Risus</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+							</div>
+						</div>
+					</section> -->
+
+				<!-- 7 GET IN TOUCH -->
+					<!-- <section class="wrapper style1 align-center">
+						<div class="inner medium">
+							<h2>Get in touch</h2>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" value="" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" value="" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="6"></textarea>
+									</div>
+								</div>
+								<ul class="actions special">
+									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+
+						</div>
+					</section> -->
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://github.com/dothereading" class="icon brands style2 fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://www.linkedin.com/in/miguelconner4/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="miguelconner4@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
 	</body>
-
-	<footer>
-		<div class="icons">
-			<a href="https://github.com/gapogapo"><img class="small" src="FlatIcons/Github.png"></a>
-			<a href="http://instagram.com/yummynoodles"><img class="small" src="FlatIcons/Instagram.png"></a>
-			<a href="https://www.linkedin.com/pub/miguel-conner/a9/13b/b39"><img class="small" src="FlatIcons/LinkedIn.png"></a>
-			<a href="https://twitter.com/miguelconner4"><img class="small" src="FlatIcons/Twitter.png"></a>
-			<a href="https://medium.com/@miguelconner4"><img class="small" src="FlatIcons/Medium.png"></a>
-      <a href="mailto:miguelconner4@gmail.com"><img class="small" src="FlatIcons/Mail.png"></a>
-		</div>
-	<footer>
-
 </html>
